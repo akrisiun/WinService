@@ -81,14 +81,8 @@
     <Compile Include="ProjectInstaller.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ProjectInstaller.Designer.cs">
-      <DependentUpon>ProjectInstaller.cs</DependentUpon>
-    </Compile>
     <Compile Include="WinService.cs">
       <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="WinService.Designer.cs">
-      <DependentUpon>WinService.cs</DependentUpon>
     </Compile>
     <Compile Include="Worker.cs" />
   </ItemGroup>
