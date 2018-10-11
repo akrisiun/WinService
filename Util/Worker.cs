@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace WinService
 {
 	class Worker
 	{
 		private bool isworking = false;
-		internal void Start()
+
+        public void Start()
 		{
 #if TRACE
 			Logger.WriteMessage(LogLevel.Trace, "Worker.Start");
@@ -24,7 +22,7 @@ namespace WinService
 			}
 		}
 
-		internal void Stop()
+        public void Stop()
 		{
 #if TRACE
 			Logger.WriteMessage(LogLevel.Trace, "Worker.Stop");
